@@ -1,0 +1,16 @@
+{
+	"name": "acResetCSS",
+	"version": "1.0.1",
+	"homepage": "http://aerochimps.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Aerochimps/acResetCSS"
+	},
+	"devDependencies": {
+		"gulp": "*",
+		"gulp-sass": "*",
+		"gulp-minify-css": "*",
+		"gulp-sourcemaps": "*",
+		"gulp-autoprefixer": "*"
+	}
+}
