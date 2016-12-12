@@ -1,0 +1,170 @@
+// Aerochimps CSS reset for HTML5 based on html5doctor.com  reset v1.6.1
+// Author:
+// Richard Clark - http://richclarkdesign.com
+// Idmar Ramos Junior - http://aerochimps.com
+// v1.0.1
+// Last Updated: 2015-04-03
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {display: block;}
+
+nav ul {list-style: none;}
+
+q,
+blockquote {quotes: none;}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+// Change colors to suit your needs
+ins {
+	background-color: rgba(80, 60, 40, 0.5);
+	color: #fff;
+	text-decoration: none;
+}
+
+// Change colors to suit your needs
+mark {
+	background-color: rgba(80, 60, 40, 0.5);
+	color: #fff;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {text-decoration: line-through;}
+
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// Change border color to suit your needs
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	font-size: 100%;
+	vertical-align: middle;
+}
+
+//*****************************************************************************
+// Aerochimps
+//*****************************************************************************
+::selection {
+	color: #fff;
+	background-color: #1bc5bb;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+b,
+strong {font-weight: normal;}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {text-decoration: underline;}
+
+// Apply a natural box layout model to all elements
+* {box-sizing: border-box;}
+
+// Reset mobile webkit styles
+input{
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+// Reset outline in :focus
+a:focus,
+button:focus,
+input:focus {outline: none;}
+
+a::-moz-focus-inner,
+button::-moz-focus-inner,
+input::-moz-focus-inner {border: 0;}
+
+//*****************************************************************************
+// Clearfix
+// http://nicolasgallagher.com/micro-clearfix-hack
+//*****************************************************************************
+.cf:before,
+.cf:after {
+	content: "";
+	display: table;
+}
+
+.cf:after {clear: both;}
+
+// For IE 6/7 (trigger hasLayout)
+.cf {zoom: 1;}
