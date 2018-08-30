@@ -1,10 +1,13 @@
 {
-	"name": "acResetCSS",
-	"version": "",
-	"homepage": "https://github.com/Aerochimps/acResetCSS",
+	"name": "ac-css-reset",
+	"version": "1.1.1",
+	"description": "Reset CSS based in HTML5Doctor Reset with aditions from Aerochimps team.",
+	"homepage": "https://github.com/Aerochimps/ac-css-reset",
+	"author": "Idmar Ramos Junior (Id)",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Aerochimps/acResetCSS"
+		"url": "https://github.com/Aerochimps/ac-css-reset.git"
 	},
 	"devDependencies": {
 		"gulp": "3.9.1",
