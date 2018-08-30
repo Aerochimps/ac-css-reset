@@ -5,9 +5,9 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 
 //Sass variables
-var input = './sass/*.scss';
-var output = './css/';
-var dist = './dist/';
+const input = './sass/*.scss';
+const output = './css/';
+const dist = './dist/';
 var sassOptions = {
 	errLogToConsole: true,
 	outputStyle: 'expanded'
