@@ -1,7 +1,7 @@
-// Aerochimps CSS reset for HTML5 based on html5doctor.com  reset v1.6.1
-// Author:
+// Aerochimps CSS Reset for HTML5 based on html5doctor.com reset v1.6.1
+// Authors:
 // Richard Clark - http://richclarkdesign.com
-// Idmar Ramos Junior - http://aerochimps.com
+// Idmar Ramos Junior - https://id.etc.br
 // v1.0.1
 // Last Updated: 2015-04-03
 
@@ -109,9 +109,9 @@ textarea {
 	vertical-align: middle;
 }
 
-//*****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
 // Aerochimps
-//*****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
 ::selection {
 	color: #fff;
 	background-color: #1bc5bb;
@@ -154,10 +154,10 @@ a::-moz-focus-inner,
 button::-moz-focus-inner,
 input::-moz-focus-inner {border: 0;}
 
-//*****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
 // Clearfix
 // http://nicolasgallagher.com/micro-clearfix-hack
-//*****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
 .cf:before,
 .cf:after {
 	content: "";
