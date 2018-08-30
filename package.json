@@ -1,16 +1,16 @@
 {
 	"name": "acResetCSS",
-	"version": "1.1",
+	"version": "",
 	"homepage": "https://github.com/Aerochimps/acResetCSS",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Aerochimps/acResetCSS"
 	},
 	"devDependencies": {
-		"gulp": "*",
-		"gulp-sass": "*",
+		"gulp": "3.9.1",
+		"gulp-autoprefixer": "*",
 		"gulp-minify-css": "*",
-		"gulp-sourcemaps": "*",
-		"gulp-autoprefixer": "*"
+		"gulp-sass": "*",
+		"gulp-sourcemaps": "*"
 	}
 }
