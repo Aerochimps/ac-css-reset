@@ -112,18 +112,11 @@ textarea {
 ////////////////////////////////////////////////////////////////////////////////
 // Aerochimps
 ////////////////////////////////////////////////////////////////////////////////
+* {box-sizing: border-box;}
+
 ::selection {
 	color: #fff;
 	background-color: #1bc5bb;
-}
-
-hr {
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid #ccc;
-	margin: 1em 0;
-	padding: 0;
 }
 
 b,
@@ -135,9 +128,6 @@ a {
 }
 
 a:hover {text-decoration: underline;}
-
-// Apply a natural box layout model to all elements
-* {box-sizing: border-box;}
 
 // Reset mobile webkit styles
 input{
