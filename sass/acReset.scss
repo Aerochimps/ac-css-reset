@@ -5,6 +5,24 @@
 // v1.0.1
 // Last Updated: 2015-04-03
 
+// Change border color to suit your needs
+
+////////////////////////////////////////////////////////////////////////////////
+// Change box-model
+////////////////////////////////////////////////////////////////////////////////
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Scafolding
+////////////////////////////////////////////////////////////////////////////////
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -41,58 +59,51 @@ header,
 hgroup,
 menu,
 nav,
-section {display: block;}
-
-nav ul {list-style: none;}
-
-q,
-blockquote {quotes: none;}
-
-q:before,
-q:after,
-blockquote:before,
-blockquote:after {
-	content: '';
-	content: none;
+section {
+	display: block;
 }
 
-a {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
+nav ul {
+	list-style: none;
 }
 
-// Change colors to suit your needs
 ins {
-	background-color: rgba(80, 60, 40, 0.5);
 	color: #fff;
 	text-decoration: none;
+	background-color: rgba(80, 60, 40, 0.5);
 }
 
-// Change colors to suit your needs
 mark {
-	background-color: rgba(80, 60, 40, 0.5);
 	color: #fff;
 	font-style: italic;
 	font-weight: bold;
+	background-color: rgba(80, 60, 40, 0.5);
 }
 
-del {text-decoration: line-through;}
+del {
+	text-decoration: line-through;
+}
 
+////////////////////////////////////////////////////////////////////////////////
+// Abbreviations and definitions
+////////////////////////////////////////////////////////////////////////////////
 abbr[title],
 dfn[title] {
 	border-bottom: 1px dotted;
 	cursor: help;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+// Table
+////////////////////////////////////////////////////////////////////////////////
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-// Change border color to suit your needs
+////////////////////////////////////////////////////////////////////////////////
+// hr
+////////////////////////////////////////////////////////////////////////////////
 hr {
 	display: block;
 	height: 1px;
@@ -102,6 +113,18 @@ hr {
 	padding: 0;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+// Form elements
+////////////////////////////////////////////////////////////////////////////////
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
 input,
 select,
 textarea {
@@ -109,45 +132,71 @@ textarea {
 	vertical-align: middle;
 }
 
+input{
+	border-radius: 0;
+	-webkit-appearance: none; //Reset mobile webkit styles
+}
+
 ////////////////////////////////////////////////////////////////////////////////
-// Aerochimps
+// ::selection
 ////////////////////////////////////////////////////////////////////////////////
-html {box-sizing: border-box;}
-
-*,
-*:before,
-*:after {box-sizing: inherit;}
-
-
 ::selection {
 	color: #fff;
 	background-color: #1bc5bb;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+// Text elements
+////////////////////////////////////////////////////////////////////////////////
 b,
-strong {font-weight: normal;}
+strong {
+	font-weight: normal;
+}
 
+q,
+blockquote {
+	quotes: none;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+	content: '';
+	content: none;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Links
+////////////////////////////////////////////////////////////////////////////////
 a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 	text-decoration: none;
 	cursor: pointer;
+	background: transparent;
 }
 
-a:hover {text-decoration: underline;}
-
-// Reset mobile webkit styles
-input{
-	border-radius: 0;
-	-webkit-appearance: none;
+a:hover {
+	text-decoration: underline;
 }
 
+////////////////////////////////////////////////////////////////////////////////
 // Reset outline in :focus
+////////////////////////////////////////////////////////////////////////////////
 a:focus,
 button:focus,
-input:focus {outline: none;}
+input:focus {
+	outline: none;
+}
 
 a::-moz-focus-inner,
 button::-moz-focus-inner,
-input::-moz-focus-inner {border: 0;}
+input::-moz-focus-inner {
+	border: 0;
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 // Clearfix
@@ -159,7 +208,10 @@ input::-moz-focus-inner {border: 0;}
 	display: table;
 }
 
-.cf:after {clear: both;}
+.cf:after {
+	clear: both;
+}
 
-// For IE 6/7 (trigger hasLayout)
-.cf {zoom: 1;}
+.cf {
+	zoom: 1;  // For IE 6/7 (trigger hasLayout)
+}
