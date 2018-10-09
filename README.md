@@ -5,7 +5,7 @@ _This project use as base [HTML5 Doctor Reset V1.6.1](http://html5doctor.com/htm
 ## Usage
 
 1. Clone the repo or install via Bower
-2. Add a link to `dist/acReset.css` in your HTML pages `<head>`
+2. Add a link to `dist/ac-css-reset.css` in your HTML pages `<head>`
 
 ## Development
 
@@ -21,11 +21,11 @@ In order to run the development environment you need to have the following insta
 1. `npm i`
 2. `gulp`
 
-This will watch changes in `sass/acReset.scss` and compile it to `css/acReset.css`
+This will watch changes in `sass/ac-css-reset.scss` and compile it to `css/ac-css-reset.css`
 
 ## Genearete a new distribution version
 
 1. Do the changes/aditions that you need,
 2. `gulp dist`.
 
-This will compile and minify styles from `sass/acReset.css` to `dist/acReset.css`  
+This will compile and minify styles from `sass/ac-css-reset.css` to `dist/ac-css-reset.css`  
